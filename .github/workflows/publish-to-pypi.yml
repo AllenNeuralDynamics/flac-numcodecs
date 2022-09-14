@@ -18,6 +18,9 @@ jobs:
           python-version: 3.9
       - name: Install dependencies for testing
         run: |
+          sudo apt update
+          sudo apt install libsndfile1
+
           pip install pytest
           pip install zarr
           pip install setuptools wheel twine
