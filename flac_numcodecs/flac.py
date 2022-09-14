@@ -1,7 +1,7 @@
 """
 Numcodecs Codec implementation for FLAC codec
     
-The (sub-optimal) approach is:
+The approach is:
 - for compression: to convert to the audio file and read it as the encoded bytes
 - for decompression: dump the encoded data to a tmp file and decode it using the codec
 
