@@ -26,7 +26,6 @@ jobs:
           sudo apt install libsndfile1
       - name: Install dependencies
         run: |
-          pip install Cython
           pip install .
           pip install zarr
           pip install pytest
