@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/flac-numcodecs.svg)](https://badge.fury.io/py/flac-numcodecs) ![tests](https://github.com/AllenNeuralDynamics/flac-numcodecs/actions/workflows/python-package.yml/badge.svg)
+
 # FLAC - numcodecs implementation
 
 [Numcodecs](https://numcodecs.readthedocs.io/en/latest/index.html) wrapper to the 
