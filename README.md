@@ -1,9 +1,11 @@
+[![PyPI version](https://badge.fury.io/py/flac-numcodecs.svg)](https://badge.fury.io/py/flac-numcodecs) ![tests](https://github.com/AllenNeuralDynamics/flac-numcodecs/actions/workflows/python-package.yml/badge.svg)
+
 # FLAC - numcodecs implementation
 
 [Numcodecs](https://numcodecs.readthedocs.io/en/latest/index.html) wrapper to the 
 [FLAC](https://xiph.org/flac/index.html) audio codec using [pyFLAC](https://github.com/sonos/pyFLAC).
 
-This implementation enables one to use WavPack as a compressor in 
+This implementation enables one to use FLAC as a compressor in 
 [Zarr](https://zarr.readthedocs.io/en/stable/index.html).
 
 ## Installation
